@@ -1,0 +1,105 @@
+
+.title {
+    color: #e5e0d8;
+}
+a {
+    color: #d4bca2;
+    text-decoration: none;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+a:active,
+a:hover,
+a.active{
+    color: #e5e0d8;
+}
+
+.strongColor{
+    color: #c05915;
+}
+
+.buttonContainer{
+    padding: 0.2rem 0;
+}
+
+.deleteButton {
+    border: 1px solid #774f2a;
+    border-radius: 0.5rem;
+    color: #c05915;
+}
+
+.deleteButton:hover {
+    color: #e5e0d8;
+    background-color: #c05915;
+}
+
+.detailsButton {
+    border: 1px solid #774f2a;
+    background-color: #9e6f46;
+    border-radius: 0.5rem;
+    color: #e5e0d8;
+}
+
+.detailsButton:hover {
+    color: #c05915;
+    background-color: #e5e0d8;
+}
+
+.titleAppointments {
+    color: #9e6f46;
+}
+
+.cardAppointment {
+    border-color: #9e6f46;
+}
+.cardAppointment:hover {
+    border-color: #c05915;
+}
+
+.formCard {
+    border: 0.3px solid #9e6f46;
+    box-shadow: rgba(158, 111, 70, 0.5) 0px 5px 15px;
+}
+
+.saveAppointment {
+    background-color: #9e6f46;
+    box-shadow: rgba(158, 111, 70, 0.5) 0px 5px 15px;
+}
+
+.modalHeader {
+    background-color: #c05915;
+    color: #e5e0d8;
+}
+.modalHeader h3 {
+    color: white;
+}
+
+.bgModal {
+    background-color: #d4bca2;
+}
+
+.cardBorder {
+    border-bottom: 1px solid #9e6f46;
+}
+
+.cancelEdit {
+    border: 1px solid #9e6f46;
+    background-color: #c05915;
+    color: #e5e0d8;
+    border-radius: 0.5rem;
+    box-shadow: rgba(158, 111, 70, 0.5) 0px 5px 15px;
+}
+.cancelEdit:hover{
+    background-color: #91410b;
+}
+.saveEditButton {
+    background-color: #e5e0d8;
+    color: #91410b;
+    border: 1px solid #91410b;
+    box-shadow: rgba(158, 111, 70, 0.5) 0px 5px 15px;
+    border-radius: 0.5rem;
+}
+
+.saveEditButton:hover{
+    background-color: #ddd2c2;
+}
