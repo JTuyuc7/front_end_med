@@ -13,10 +13,8 @@ const MainPage = () => {
     const dispatch = useDispatch()
     const { appointments } = useSelector( (state) => state.appointment);
     const { loading, error, message, notifactionState, notifactionMsg, labelNotification } = useSelector((state) => state.ui);
-    console.log(appointments, ' datos arreglo')
     useEffect(() => {
         dispatch(getAllAppointments())
-        console.log('se ejecuta')
     },[dispatch])
 
     const tryAgainHanlder = () => {
